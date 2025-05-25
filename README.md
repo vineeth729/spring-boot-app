@@ -18,7 +18,7 @@ This project demonstrates a complete infrastructure-as-code solution for deployi
 ## **Architecture**  
 ```mermaid  
 graph LR  
-    GitHub --> CodePipeline --> CodeBuild --> ECR --> ECS --> IGW  
+    GitHub --> CodePipeline --> CodeBuild --> ECR --> ECS --> ALB  
 ```    
 
 ## **Technology Stack**  
