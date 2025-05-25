@@ -18,17 +18,8 @@ This project demonstrates a complete infrastructure-as-code solution for deployi
 ## **Architecture**  
 ```mermaid  
 graph LR  
-    GitHub --> CodePipeline --> CodeBuild --> ECR --> ECS --> ALB  
-```  
-
-## **Quick Start**  
-1. Fork this repository  
-2. Configure AWS credentials  
-3. Deploy infrastructure:  
-```bash  
-aws cloudformation deploy --template-file infra.yml --stack-name my-stack  
-```  
-4. Push changes to trigger pipeline  
+    GitHub --> CodePipeline --> CodeBuild --> ECR --> ECS --> IGW  
+```    
 
 ## **Technology Stack**  
 - **Backend**: Spring Boot 3.x (Java 17)  
