@@ -4,7 +4,6 @@
 **A CI/CD pipeline for containerized Spring Boot applications on AWS Fargate**
 
 [![AWS CodeBuild Status](https://img.shields.io/badge/CodeBuild-Passing-success?logo=amazonaws)](https://us-east-1.console.aws.amazon.com/codesuite/codebuild/projects)
-[![Docker Image CI](https://img.shields.io/github/actions/workflow/status/yourusername/repo/docker-build.yml?label=Docker%20Build)](https://github.com/yourusername/repo/actions)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Java Version](https://img.shields.io/badge/Java-17-orange?logo=openjdk)](https://openjdk.org/projects/jdk/17/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1-green?logo=spring)](https://spring.io/projects/spring-boot)
