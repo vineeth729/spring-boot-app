@@ -16,13 +16,7 @@ This project demonstrates a complete infrastructure-as-code solution for deployi
 - **AWS ECS Fargate** (serverless containers)  
 - **AWS CodePipeline** (CI/CD automation)  
 - **AWS CodeBuild** (build/test)  
-- **Amazon ECR** (Docker image storage)  
-
-This project demonstrates a complete infrastructure-as-code solution for deploying Spring Boot applications to AWS using:  
-- **AWS ECS Fargate** (serverless containers)  
-- **AWS CodePipeline** (CI/CD automation)  
-- **AWS CodeBuild** (build/test)  
-- **Amazon ECR** (Docker image storage)  
+- **Amazon ECR** (Docker image storage)   
 
 ## **Key Features**  
 ✅ **Automated deployments** triggered by GitHub commits  
